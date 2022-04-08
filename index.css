@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cantarell', sans-serif;
+}
+
+body{
+  background-color: #f6f0ed;
+  color: #28536b;
+}
+
+header{
+  background-color: #7ea8be;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+}
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  font-size: larger;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 100%;
+  justify-content: space-around;
+  align-items:flex-end ;
+  font-size: larger;
+}
+
+.painelnav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 5REM;
+  background-color: #c2948a;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+}
+
+.textodesc{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 6REM;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotosdog{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dog1, .dog2, .dog3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3%;
+}
+
+h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.botoes1:hover {
+  font-size: x-large;
+  transition: font-size .5s;
+  color: #162d39;
+  cursor: pointer;
+}
+
+.botoes2:hover {
+  font-size: x-large;
+  transition: font-size .5s;
+  color: #85655e;
+  cursor: pointer;
+}
+
+#like:hover{
+  font-size: xx-large;
+  transition: font-size .5s;
+  color: #ef233c;
+  cursor: pointer;
+}
+
+#like:visited{
+  font-size: x-large;
+  transition: font-size .5s;
+  color: #ef233c;
+}
+
+
+@media(max-width: 700px) {
+  .titulo{
+    display: none;
+  }
+  .botoes{
+    flex-direction: column;
+  }
+}
